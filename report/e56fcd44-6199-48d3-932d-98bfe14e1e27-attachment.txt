@@ -1,0 +1,9 @@
+[32mINFO    [0m pages.base_page:base_page.py:21 Page https://tensor.ru/ opened
+[32mINFO    [0m pages.base_page:tensor_page.py:29 Block tensor_ru-Index__block4-bg presense on page
+[32mINFO    [0m pages.base_page:tensor_page.py:42 return from locator tensor_ru-Index__block4-bg images Сила в людях
+Нас 7 000 человек, мы — разные: веселые и задумчивые, опытные и начинающие, реалисты и идеалисты.
+Но все мы — часть единой команды.
+Мы покоряем не только новые технологии и сердца клиентов. Вулканы, горные вершины, бурные реки и тайга: мы были в Карелии, Адыгее, на Камчатке, на Баренцевом море и т.д.
+Подробнее
+[32mINFO    [0m pages.base_page:tensor_page.py:59 Click on link by locator .tensor_ru-Index__block4-bg .tensor_ru-Index__link
+[32mINFO    [0m pages.base_page:base_page.py:76 Current url page: https://tensor.ru/about

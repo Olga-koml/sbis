@@ -1,0 +1,4 @@
+[32mINFO    [0m pages.base_page:base_page.py:21 Page https://sbis.ru/ opened
+[32mINFO    [0m pages.base_page:sbis_page.py:21 Click on ('link text', 'Контакты')
+[32mINFO    [0m pages.base_page:sbis_page.py:28 Click on ('css selector', 'a.sbisru-Contacts__logo-tensor')
+[32mINFO    [0m pages.base_page:base_page.py:27 Current page https://tensor.ru/ is opened

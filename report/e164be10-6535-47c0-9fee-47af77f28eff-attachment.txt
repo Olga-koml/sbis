@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.base_page:base_page.py:21 Page https://sbis.ru/ opened
+[32mINFO    [0m pages.base_page:sbis_page.py:21 Click on ('link text', 'Контакты')

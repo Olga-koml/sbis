@@ -1,0 +1,28 @@
+2024-05-11 13:16:21 | INFO | -  Page https://sbis.ru/ opened | open | 21
+2024-05-11 13:16:24 | INFO | -  Click on ('link text', 'Контакты') | click_section_contact | 22
+2024-05-11 13:16:24 | INFO | -  Page https://sbis.ru/contacts/ opened | open | 21
+2024-05-11 13:16:25 | INFO | -  Get current region: Ярославская обл. | find_current_region | 30
+2024-05-11 13:16:25 | INFO | -  Maked screenshot Ярославская обл. | make_screenshot | 56
+2024-05-11 13:16:25 | INFO | -  Get number partners in curr region: 15 | find_partners_list | 47
+2024-05-11 13:16:25 | INFO | -  Click on .sbisru-Contacts__relative .sbis_ru-Region-Chooser__text | click_current_region_link | 59
+2024-05-11 13:16:26 | INFO | -  Click on span[title="Камчатский край"] | change_region | 69
+2024-05-11 13:16:26 | INFO | -  Get current region: Камчатский край | find_current_region | 30
+2024-05-11 13:16:27 | INFO | -  Maked screenshot Камчатский край | make_screenshot | 56
+2024-05-11 13:16:27 | INFO | -  Get number partners in curr region: 1 | find_partners_list | 47
+2024-05-11 13:16:27 | INFO | -  Current url page: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients | current_url | 47
+2024-05-11 13:16:27 | INFO | -  Current title page: СБИС Контакты — Камчатский край | current_title | 40
+2024-05-11 13:16:33 | INFO | -  Page https://sbis.ru/ opened | open | 21
+2024-05-11 13:16:37 | INFO | -  Click on ('link text', 'Контакты') | click_section_contact | 22
+2024-05-11 13:16:37 | INFO | -  Click on ('css selector', 'a.sbisru-Contacts__logo-tensor') | click_tensor_banner | 30
+2024-05-11 13:16:39 | INFO | -  Current page https://tensor.ru/ is opened | is_opened | 27
+2024-05-11 13:16:39 | INFO | -  Page https://tensor.ru/ opened | open | 21
+2024-05-11 13:16:40 | INFO | -  Block tensor_ru-Index__block4-bg presense on page | find_block | 30
+2024-05-11 13:16:40 | INFO | -  return from locator tensor_ru-Index__block4-bg images Сила в людях
+Нас 7 000 человек, мы — разные: веселые и задумчивые, опытные и начинающие, реалисты и идеалисты.
+Но все мы — часть единой команды.
+Мы покоряем не только новые технологии и сердца клиентов. Вулканы, горные вершины, бурные реки и тайга: мы были в Карелии, Адыгее, на Камчатке, на Баренцевом море и т.д.
+Подробнее | find_block_text | 43
+2024-05-11 13:16:40 | INFO | -  Click on link by locator .tensor_ru-Index__block4-bg .tensor_ru-Index__link | click_detail_link | 62
+2024-05-11 13:16:41 | INFO | -  Current url page: https://tensor.ru/about | current_url | 47
+2024-05-11 13:16:41 | INFO | -  Page https://tensor.ru/about opened | open | 21
+2024-05-11 13:16:41 | INFO | -  Get images by locator div.tensor_ru-container.tensor_ru-section.tensor_ru-About__block3 | get_images | 25

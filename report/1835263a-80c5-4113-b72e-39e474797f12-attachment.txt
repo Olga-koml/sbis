@@ -1,0 +1,2 @@
+[32mINFO    [0m pages.base_page:base_page.py:21 Page https://tensor.ru/about opened
+[32mINFO    [0m pages.base_page:tensor_about_page.py:24 Get images by locator div.tensor_ru-container.tensor_ru-section.tensor_ru-About__block3

@@ -1,0 +1,11 @@
+[32mINFO    [0m pages.base_page:base_page.py:21 Page https://sbis.ru/contacts/ opened
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:27 Get current region: Ярославская обл.
+[32mINFO    [0m pages.base_page:base_page.py:49 Maked screenshot Ярославская обл.
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:40 Get number partners in curr region: 15
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:49 Click on .sbisru-Contacts__relative .sbis_ru-Region-Chooser__text
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:57 Click on span[title="Камчатский край"]
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:27 Get current region: Камчатский край
+[32mINFO    [0m pages.base_page:base_page.py:49 Maked screenshot Камчатский край
+[32mINFO    [0m pages.base_page:sbis_contacts_page.py:40 Get number partners in curr region: 1
+[32mINFO    [0m pages.base_page:base_page.py:76 Current url page: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+[32mINFO    [0m pages.base_page:base_page.py:40 Current title page: СБИС Контакты — Камчатский край
