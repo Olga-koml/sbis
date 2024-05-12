@@ -15,7 +15,6 @@ class SbisContactsPage(BasePage):
     )
     PARTNERS_LIST = (By.CSS_SELECTOR, 'div.sbisru-Contacts-List__item')
     REGION_FIELD = (By.CSS_SELECTOR, 'input.controls-Field')
-    # REGION_KAMCHATSKIY = (By.XPATH, '//span[@title="Камчатский край"]')
     REGION_KAMCHATSKIY = (By.CSS_SELECTOR, 'span[title="Камчатский край"]')
 
     @allure.step('Find current region')
@@ -62,7 +61,7 @@ class SbisContactsPage(BasePage):
     def change_region(self):
         '''Change region on page contacts.'''
         self.wait.until(
-            EC.visibility_of_element_located(self.REGION_KAMCHATSKIY),
+            EC.element_to_be_clickable(self.REGION_KAMCHATSKIY),
             message=(f'Field by locator {self.REGION_KAMCHATSKIY[1]}'
                      f' not visibile')
         ).click()

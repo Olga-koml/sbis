@@ -10,7 +10,7 @@ class BasePage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.wait = WebDriverWait(driver, 10, poll_frequency=1)
+        self.wait = WebDriverWait(driver, 10, poll_frequency=4)
         self.logger = logging.getLogger(__name__)
         self.logger.setLevel(logging.INFO)
 
@@ -54,3 +54,8 @@ class BasePage:
             attachment_type=AttachmentType.PNG
         )
         self.logger.info(f'Maked screenshot {screenshot_name}')
+
+    @allure.step('Wait until change url')
+    def wait_until_change_url(self, old_url):
+        self.wait.until(EC.url_changes(old_url))
+        self.logger.info(f'Wait until old urls is changes {old_url}')

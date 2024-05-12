@@ -28,7 +28,9 @@ class TestChangeRegion(BaseTest):
         partners = self.sbis_contacts_page.find_partners_list()
         assert len(partners) > 0, ('Partners list not found')
         self.sbis_contacts_page.click_current_region_link()
+        old_url = self.sbis_contacts_page.current_url()
         self.sbis_contacts_page.change_region()
+        self.sbis_contacts_page.wait_until_change_url(old_url)
         kam_region = self.sbis_contacts_page.find_current_region()
         assert kam_region == self.KAMCHATSKIJ, (
             f'Current region {kam_region}, expected: {self.KAMCHATSKIJ}'
